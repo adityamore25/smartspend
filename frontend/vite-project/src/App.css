@@ -1,0 +1,78 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Card style */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 8px 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Button colors */
+button {
+  background: #3498db;
+  color: white;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* Summary section */
+.summary p {
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+/* Transactions */
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Income vs Expense */
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+/* Login button center */
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

@@ -1,0 +1,47 @@
+/* Reset browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base body styling */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* Smooth rendering */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Inputs */
+input, select {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+/* Utility spacing */
+p {
+  margin: 5px 0;
+}
